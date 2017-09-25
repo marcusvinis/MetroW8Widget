@@ -1,0 +1,120 @@
+#wp8-start {
+	color: #fff;
+	width: 320px;
+	text-align: left;
+}
+img {
+	border: none;
+	position: relative;
+}
+.live-tile {
+	background: #238e9a;
+	height: 146px;
+	margin: 8px 0 0 8px;
+	width: 146px;
+}
+.live-tile span {
+	bottom: 6px;
+	left: 12px;
+	position: absolute;
+}
+.live-tile img {
+	display: block;
+	height: 146px;
+	margin: auto;
+	width: 146px;
+}
+.live-tile:active {
+	height: 140px;
+	margin-left: 6px;
+	margin-bottom: 6px;
+	width: 140px;
+}
+.live-tile:active img {
+	height: 140px;
+	width: 140px;
+}
+.front-tile {
+	background: #238e9a;
+}
+.back-tile {
+	background: #238e9a;
+	padding: 6px;
+}
+.back-tile span {
+	font-size: 16pt;
+	position: static;
+	text-align: justify;
+}
+.back-tile a {
+	position: absolute;
+}
+.back-tile img {
+	margin: -6px;
+}
+.flip-list.nineTiles>li, .flip-list.nineTiles>li>div, .flip-list.nineTiles>li>div>img, .flip-list.nineTiles>li>div>a {
+	padding: 0;
+	margin: 0;
+	height: 48.5px;
+	width: 48.5px;
+}
+.nineTiles img {
+	height: 48.5px;
+	width: 48.5px;
+}
+.flip-list.nineTiles:active li, .flip-list.nineTiles:active img {
+	height: 46.6px;
+	width: 46.6px;
+}
+.large-tile {
+	background: #238e9a;
+	height: 146px;
+	float: left;
+	margin-top: 8px;
+	overflow: hidden;
+	position: relative;
+	width: 300px;
+}
+.large-tile span {
+	bottom: 6px;
+	font-weight: 300;
+	left: 12px;
+	position: absolute;
+}
+.large-tile:active {
+	height: 140px;
+	margin-left: 10px;
+	margin-bottom: 6px;
+	width: 290px;
+}
+.large-tile:active img {
+	height: 140px;
+	width: 290px;
+}
+.small-tile {
+	background: #238e9a;
+	height: 69px;
+	float: left;
+	margin: 8px 0px 0 8px;
+	width: 69px;
+}
+.small-tile img {
+	height: 69px;
+	width: 69px;
+}
+.small-tile:active {
+	height: 67px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+	width: 67px;
+}
+.small-tile:active img {
+	height: 67px;
+	width: 67px;
+}
+.first, .first-s {
+	margin: 8px 0 0 0;
+}
+.first-s:active {
+	margin-left: 2px;
+}
